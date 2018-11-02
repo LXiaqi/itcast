@@ -1,7 +1,6 @@
 <template>
 <div id="app">
-    <h2>董卓小蛮腰</h2>
-    <router-view />
+    <router-view></router-view>
 </div>
 </template>
 
@@ -12,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+    #app {
+        height: 100%;
+    }
 </style>
